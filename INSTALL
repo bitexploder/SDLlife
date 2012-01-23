@@ -1,0 +1,13 @@
+Tested on Ubuntu and MinGW
+
+
+For Ubuntu install the following packages:
+
+libsdl1.2-dev libsdl-ttf2.0-dev libsdl-gfx1.2-dev
+
+Installation command
+--
+sudo apt-get install libsdl1.2-dev libsdl-ttf2.0-dev libsdl-gfx1.2-dev
+
+
+On MinGW the libraries are fairly well supported, but they must be properly installed into your MinGW installation.
