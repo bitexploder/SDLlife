@@ -1,0 +1,103 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Bench	bench.h	/^} Bench;$/;"	t	typeref:struct:__anon1
+Bench_CalcElapsed	bench.c	/^void Bench_CalcElapsed(Bench *bench)$/;"	f
+Bench_DestroyBench	bench.c	/^void Bench_DestroyBench(Bench *bench)$/;"	f
+Bench_End	bench.c	/^void Bench_End(Bench *bench)$/;"	f
+Bench_MakeBench	bench.c	/^Bench *Bench_MakeBench()$/;"	f
+Bench_Start	bench.c	/^void Bench_Start(Bench *bench)$/;"	f
+Draw	draw.h	/^} Draw;$/;"	t	typeref:struct:__anon1
+Draw	draw.h	/^} Draw;$/;"	t	typeref:struct:__anon2
+Draw_ClearScreen	draw.c	/^void Draw_ClearScreen(Draw *draw)$/;"	f
+Draw_DestroyDraw	draw.c	/^void Draw_DestroyDraw(Draw *draw) $/;"	f
+Draw_DrawPixel	draw.c	/^void Draw_DrawPixel(Draw *draw, unsigned int x, unsigned int y, int state)$/;"	f
+Draw_DrawPixelS	draw.c	/^void Draw_DrawPixelS(Draw *draw, unsigned int x, unsigned int y, int state, int pixsize)$/;"	f
+Draw_DrawText	draw.c	/^void Draw_DrawText(Draw *draw, char *string, int size, int x, int y)$/;"	f
+Draw_InitSDL	draw.c	/^SDL_Surface *Draw_InitSDL(Draw *draw, int width, int height, int pixsize) {$/;"	f
+Draw_InitSDL	draw.c	/^SDL_Surface *Draw_InitSDL(int width, int height, int pixsize) {$/;"	f
+Draw_MakeDraw	draw.c	/^Draw *Draw_MakeDraw(int width, int height, int pixsize) {$/;"	f
+Draw_UpdateDisplay	draw.c	/^void Draw_UpdateDisplay(Draw *draw) $/;"	f
+Life	life.h	/^} Life;$/;"	t	typeref:struct:__anon2
+Life	life.h	/^} Life;$/;"	t	typeref:struct:__anon3
+Life_ClearAllCells	life.c	/^void Life_ClearAllCells(Life *game) $/;"	f
+Life_ClearCell	life.c	/^void Life_ClearCell(Life *game, unsigned int x, unsigned int y)$/;"	f
+Life_DestroyLife	life.c	/^void Life_DestroyLife(Life *game) $/;"	f
+Life_DrawAllCells	life.c	/^void Life_DrawAllCells(Life *game, Draw *draw)$/;"	f
+Life_GetCellState	life.c	/^int Life_GetCellState(Life *game, unsigned int x, unsigned int y)$/;"	f
+Life_Iterate	life.c	/^void Life_Iterate(Life *game, Draw *draw)$/;"	f
+Life_Iterate	life.c	/^void Life_Iterate(Life *game, UI *ui) \/\/Draw *draw)$/;"	f
+Life_MakeLife	life.c	/^Life *Life_MakeLife(unsigned int width, unsigned int height) $/;"	f
+Life_PrintCells	life.c	/^void Life_PrintCells(Life *game) $/;"	f
+Life_RandInit	life.c	/^void Life_RandInit(Life *game)$/;"	f
+Life_SetCell	life.c	/^void Life_SetCell(Life *game, unsigned int x, unsigned int y) $/;"	f
+Point	ui.h	/^} Point;$/;"	t	typeref:struct:__anon5
+Stack	stack.h	/^typedef struct Stack {$/;"	s
+Stack	stack.h	/^} Stack;$/;"	t	typeref:struct:Stack
+Stack_Pop	stack.c	/^Stack *Stack_Pop(Stack **head)$/;"	f
+Stack_Push	stack.c	/^void Stack_Push(Stack **head, int id, void *data)$/;"	f
+Stack_Read	stack.c	/^Stack *Stack_Read(Stack *head)$/;"	f
+Stack_Size	stack.c	/^int Stack_Size(Stack *head)$/;"	f
+UI	ui.h	/^} UI;$/;"	t	typeref:struct:__anon3
+UI	ui.h	/^} UI;$/;"	t	typeref:struct:__anon4
+UI_DestroyUI	ui.c	/^void UI_DestroyUI(UI *ui)$/;"	f
+UI_DrawAllowed	ui.c	/^int UI_DrawAllowed(Life *game, Draw *draw)$/;"	f
+UI_DrawPixel	ui.c	/^void UI_DrawPixel(UI *ui, int x, int y, int state)$/;"	f
+UI_HandleEvents	ui.c	/^int UI_HandleEvents(UI *ui)$/;"	f
+UI_MakeUI	ui.c	/^UI *UI_MakeUI(Life *game, Draw *draw)$/;"	f
+UI_UpdateStatus	ui.c	/^void UI_UpdateStatus(UI *ui)$/;"	f
+_bench_h	bench.h	3;"	d
+_draw_h	draw.h	4;"	d
+_draw_h	draw.h	5;"	d
+_life_h	life.h	2;"	d
+_stack_h	stack.h	2;"	d
+_ui_h	ui.h	7;"	d
+_ui_h	ui.h	8;"	d
+cells	life.h	/^	unsigned char *cells;$/;"	m	struct:__anon2
+cells	life.h	/^	unsigned char *cells;$/;"	m	struct:__anon3
+data	stack.h	/^    void *data;$/;"	m	struct:Stack
+debug	ui.h	/^    int debug;$/;"	m	struct:__anon4
+delay	ui.h	/^	int delay;$/;"	m	struct:__anon3
+delay	ui.h	/^	int delay;$/;"	m	struct:__anon4
+draw	ui.h	/^	Draw *draw;$/;"	m	struct:__anon3
+draw	ui.h	/^	Draw *draw;$/;"	m	struct:__anon4
+draw_mode	ui.h	/^    int draw_mode;$/;"	m	struct:__anon4
+elapsed	bench.h	/^   unsigned long elapsed;$/;"	m	struct:__anon1
+end	bench.h	/^   struct timeval end;$/;"	m	struct:__anon1	typeref:struct:__anon1::timeval
+event	draw.h	/^	SDL_Event event;$/;"	m	struct:__anon1
+event	draw.h	/^	SDL_Event event;$/;"	m	struct:__anon2
+game	ui.h	/^	Life *game;$/;"	m	struct:__anon3
+game	ui.h	/^	Life *game;$/;"	m	struct:__anon4
+generations	life.h	/^    unsigned long generations;$/;"	m	struct:__anon3
+gps	ui.h	/^    float gps; \/\/ Generations per second$/;"	m	struct:__anon4
+height	life.h	/^	unsigned int height;$/;"	m	struct:__anon2
+height	life.h	/^	unsigned int height;$/;"	m	struct:__anon3
+id	stack.h	/^    int id;$/;"	m	struct:Stack
+lm_down	ui.h	/^    int lm_down;$/;"	m	struct:__anon4
+main	main.c	/^int main(int argc, char *argv[])$/;"	f
+mouse_paused	ui.h	/^    int mouse_paused;$/;"	m	struct:__anon4
+next	stack.h	/^    struct Stack *next;$/;"	m	struct:Stack	typeref:struct:Stack::Stack
+paused	ui.h	/^	int paused;$/;"	m	struct:__anon3
+paused	ui.h	/^	int paused;$/;"	m	struct:__anon4
+pixsize	draw.h	/^	int pixsize;$/;"	m	struct:__anon1
+pixsize	draw.h	/^	int pixsize;$/;"	m	struct:__anon2
+run	ui.h	/^    int run;$/;"	m	struct:__anon4
+screen	draw.h	/^	SDL_Surface *screen;$/;"	m	struct:__anon1
+screen	draw.h	/^	SDL_Surface *screen;$/;"	m	struct:__anon2
+screen_height	draw.h	/^    int screen_height;$/;"	m	struct:__anon2
+screen_width	draw.h	/^    int screen_width;$/;"	m	struct:__anon2
+size	life.h	/^	unsigned int size;$/;"	m	struct:__anon2
+size	life.h	/^	unsigned int size;$/;"	m	struct:__anon3
+start	bench.h	/^   struct timeval start;$/;"	m	struct:__anon1	typeref:struct:__anon1::timeval
+status_width	draw.h	/^    int status_width;$/;"	m	struct:__anon2
+temp_cells	life.h	/^	unsigned char *temp_cells;$/;"	m	struct:__anon2
+temp_cells	life.h	/^	unsigned char *temp_cells;$/;"	m	struct:__anon3
+width	life.h	/^	unsigned int width;$/;"	m	struct:__anon2
+width	life.h	/^	unsigned int width;$/;"	m	struct:__anon3
+x	ui.h	/^    int x;$/;"	m	struct:__anon5
+y	ui.h	/^    int y;$/;"	m	struct:__anon5
+zoom_scale	ui.h	/^    int zoom_scale;$/;"	m	struct:__anon4
+zoom_stack	ui.h	/^    Stack *zoom_stack;$/;"	m	struct:__anon4

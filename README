@@ -1,0 +1,20 @@
+sdllife - by Jeremy Allen
+
+Background
+==
+The algorithm used is from Michael Abrash' Graphics Programming Black Book. This project was primarily to prototype code that will ultimately be used on an Arduino 16x16 Matrix display. However, I enjoyed hacking on this and figured I would release a modern version of Abrash's algorithm. This is probably one of the speediest implementations you will find with no fancy data structures.
+
+Requirements
+==
+You will need SDL >1.2.0, SDL_gfx, SDL_ttf. These are available on Ubuntu as standard packages. Both of these build under windows using MinGW and the makefile and code runs properly on both Linux and Windows. 
+
+Usage
+==
+When the game is running the following commands can be issued via keypress or mouse click
+
+r - Clear the current cells and create a new board
+c - Clear the current cells
+p - Pause the game
+- - Speed the game up
++ - Slow the game down
+q - Quit
