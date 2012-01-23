@@ -1,13 +1,18 @@
 Tested on Ubuntu and MinGW
 
 
-For Ubuntu install the following packages:
+Currently tested and built on Windows 7/Ubuntu 11.10
+
+
+For Ubuntu development install the following packages:
 
 libsdl1.2-dev libsdl-ttf2.0-dev libsdl-gfx1.2-dev
 
-Installation command
+
+Installation command (Ubuntu)
 --
 sudo apt-get install libsdl1.2-dev libsdl-ttf2.0-dev libsdl-gfx1.2-dev
+make
+bin/sdllife
 
-
-On MinGW the libraries are fairly well supported, but they must be properly installed into your MinGW installation.
+On MinGW the libraries are fairly well supported, but they must be properly installed into your MinGW installation. For now you are on your own getting these libraries installed. Once installed, it should be as simple as running make. Binaries are provided.
