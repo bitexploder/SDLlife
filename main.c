@@ -15,9 +15,9 @@
 
 int main(int argc, char *argv[])
 {
-    int rows = 250;
-    int cols = 250;
-    int pixsize = 4;
+    int rows = 800;
+    int cols = 600;
+    int pixsize = 1;
 
     // Initialize everything
     Life *game = Life_MakeLife(cols, rows);
