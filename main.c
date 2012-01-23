@@ -16,7 +16,7 @@
 int main(int argc, char *argv[])
 {
     int rows = 800;
-    int cols = 600;
+    int cols = 800;
     int pixsize = 1;
 
     // Initialize everything
